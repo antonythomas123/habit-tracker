@@ -175,7 +175,7 @@ function StreaksScreen() {
         Habit Streaks
       </Text>
 
-      {rankedHabits?.length > 0 && (
+      {rankedHabits && rankedHabits?.length > 0 && (
         <View style={styles.rankingContainer}>
           <Text style={styles.rankingTitle}>&#x1F947; Top Streaks</Text>
 
